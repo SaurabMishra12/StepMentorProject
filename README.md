@@ -2,7 +2,7 @@
 
 
 
- Brief about the Idea: The idea involves developing a system that helps the Students practice questions. It will generate clear problem statements using GenAI, suggest relevant formulas, and present solutions step-by-step in the given time frame; the prototype features GenAI API for question descriptions and chatbot and machine learning for formula suggestions. Opportunity : How different is it from any other existing ideas out there? The proposed model stands out with its comprehensive learning support, leveraging advanced technologies like Prompt Engineering and Machine learning. It offers a personalized learning experience akin to having a personal tutor. These features distinguish it from existing platforms, ensuring a unique and effective study tool for JEE students. The dataset used for practising questions is imported from Youdata.ai (https://www.youdata.ai/datasets/662dddd37bb79dfcf0856b99); some of the questions are handpicked from this dataset to show the potential of the prototypes in handling the different levels of questions.
+ Brief about the Idea: The idea involves developing a system that helps the Students practice questions. It will generate clear problem statements using GenAI, suggest relevant formulas, and present solutions step-by-step in the given time frame; the prototype features GenAI API for question descriptions and chatbot and machine learning for formula suggestions. Opportunity : How different is it from any other existing ideas out there? The proposed model stands out with its comprehensive learning support, leveraging advanced technologies like Prompt Engineering and Machine learning. It offers a personalized learning experience akin to having a personal tutor. These features distinguish it from existing platforms, ensuring a unique and effective study tool for JEE students. The dataset used for practising questions is imported from Online Data Lakes; some of the questions are handpicked from this dataset to show the potential of the prototypes in handling the different levels of questions.
 
  How will it be able to solve the problem? 
 
@@ -37,7 +37,6 @@ GenAI Question Description: Automatically generate clear and concise description
 
 
 Streamlit is used to create an interactive web application.
-YoudataAI (https://www.youdata.ai/datasets/662dddd37bb79dfcf0856b99) is used to import data(questions) for the application.
 Pandas manages and processes the user data, such as saving which buttons were clicked or handling login information.
 PIL and Fitz are used for processing images of questions that users upload, extracting the text or relevant information.
 Pytesseract performs OCR on these images to convert the text into a format that can be processed and analyzed by your application.
